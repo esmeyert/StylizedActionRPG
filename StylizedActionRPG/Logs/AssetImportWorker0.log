@@ -184,3 +184,12 @@ Received Import Request.
 Start importing Assets/_Project/URP/UniversalRenderPipelineAsset.asset using Guid(e86df738338afeb458c44488aec76cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de2c20625d31f42d0000d72532b745b') in 0.004150 seconds 
   Import took 0.008010 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 207.159896 seconds.
+  path: Assets/_Project/Materials/Shader/VertexPainting/HeightblendTexture.mat
+  artifactKey: Guid(86ded8da30f0c094bbcaee1469c5b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/Shader/VertexPainting/HeightblendTexture.mat using Guid(86ded8da30f0c094bbcaee1469c5b139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138a54f3d2b270d4c7e2f2d0a72fe3ce') in 0.496740 seconds 
+  Import took 0.501315 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
