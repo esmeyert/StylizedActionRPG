@@ -7,9 +7,6 @@
             "m_Id": "04f8e205f6a44a9f998028211063674b"
         },
         {
-            "m_Id": "faa123d165d04ee08fc8ea594b42fe07"
-        },
-        {
             "m_Id": "a070736024474892bbb905bf50c02449"
         },
         {
@@ -17,6 +14,9 @@
         },
         {
             "m_Id": "7c2934887d044ddeb3ec97ba46b610c1"
+        },
+        {
+            "m_Id": "faa123d165d04ee08fc8ea594b42fe07"
         },
         {
             "m_Id": "872b27a327454d1aa1be2db89033b4c3"
@@ -4944,7 +4944,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Smoothness",
     "m_StageCapability": 2,
-    "m_Value": 0.5,
+    "m_Value": 0.0,
     "m_DefaultValue": 0.5,
     "m_Labels": []
 }
