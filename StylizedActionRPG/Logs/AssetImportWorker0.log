@@ -15,11 +15,11 @@ D:/GitRepositories/StylizedActionRPG/StylizedActionRPG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52839
+54295
 Successfully changed project path to: D:/GitRepositories/StylizedActionRPG/StylizedActionRPG
 D:/GitRepositories/StylizedActionRPG/StylizedActionRPG
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.32 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 54.83 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.28f1 (f5400f52e03f)
 [Subsystems] Discovering subsystems at path C:/Program Files/2020.3.28f1/Editor/Data/Resources/UnitySubsystems
@@ -30,44 +30,44 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
     Vendor:   
     VRAM:     6097 MB
-    Driver:   30.0.15.1165
+    Driver:   30.0.15.1179
 Initialize mono
 Mono path[0] = 'C:/Program Files/2020.3.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/2020.3.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/2020.3.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/2020.3.28f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/2020.3.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002076 seconds.
+Registered in 0.002062 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 51.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.488 seconds
+- Completed reload, in  0.475 seconds
 Domain Reload Profiling:
-	ReloadAssembly (488ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (475ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (374ms)
-			LoadAssemblies (51ms)
+		EndReloadAssembly (366ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (118ms)
+			SetupTypeCache (114ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (151ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
+				RefreshPlugins (51ms)
 				BeforeProcessingInitializeOnLoad (11ms)
-				ProcessInitializeOnLoadAttributes (62ms)
+				ProcessInitializeOnLoadAttributes (61ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -75,36 +75,36 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007349 seconds.
+Registered in 0.006788 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 52.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.994 seconds
+- Completed reload, in  1.005 seconds
 Domain Reload Profiling:
-	ReloadAssembly (995ms)
-		BeginReloadAssembly (127ms)
+	ReloadAssembly (1006ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (832ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (318ms)
+			SetupLoadedEditorAssemblies (314ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (53ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (158ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 154.6 MB.
-System memory in use after: 154.7 MB.
+System memory in use before: 154.7 MB.
+System memory in use after: 154.9 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3832.
-Total: 5.128200 ms (FindLiveObjects: 0.387400 ms CreateObjectMapping: 0.083300 ms MarkObjects: 4.493800 ms  DeleteObjects: 0.162500 ms)
+Total: 5.414300 ms (FindLiveObjects: 0.556700 ms CreateObjectMapping: 0.119700 ms MarkObjects: 4.607700 ms  DeleteObjects: 0.128900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,378 +134,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/_Project/Models/Characters/Ahri/Ahri.mat
-  artifactKey: Guid(ccb89edd84ebe564582145aa34f606a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Models/Characters/Ahri/Ahri.mat using Guid(ccb89edd84ebe564582145aa34f606a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0f712d5f3c2f7bdca854d4605913c1') in 0.249061 seconds 
-  Import took 0.288836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.280358 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Normals.png
-  artifactKey: Guid(46591db3c63921c49822d299f71088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Normals.png using Guid(46591db3c63921c49822d299f71088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82603d84f8ee1b27518f956cf3a5f5e8') in 0.062815 seconds 
-  Import took 0.097170 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.564912 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Normals.png
-  artifactKey: Guid(46591db3c63921c49822d299f71088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Normals.png using Guid(46591db3c63921c49822d299f71088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f440e4f077ee59170450e09f1aac77') in 0.029187 seconds 
-  Import took 0.064512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.007404 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Normals.png
-  artifactKey: Guid(46591db3c63921c49822d299f71088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Normals.png using Guid(46591db3c63921c49822d299f71088dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b685965ebc745fd37a66639b89f1532e') in 0.013777 seconds 
-  Import took 0.038442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 106.621888 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png
-  artifactKey: Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png using Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f832ca788c4a2350c4c65ff42ca9b2') in 0.011432 seconds 
-  Import took 0.041037 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.156555 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png
-  artifactKey: Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png using Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e284a78113638804a72546bb4c90707d') in 0.012308 seconds 
-  Import took 0.044848 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 90.056883 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png
-  artifactKey: Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png using Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a299988b151daffdabaaea7e477c0da0') in 0.014612 seconds 
-  Import took 0.027176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.531810 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png
-  artifactKey: Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png using Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aef168e4c12e245e302f2abf13f6fa31') in 0.012028 seconds 
-  Import took 0.033683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.781352 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png
-  artifactKey: Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Height.png using Guid(edad963ea6fe5834c8ced98362fac956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e52cf25b10d1a631b6792eda790cb7') in 0.012591 seconds 
-  Import took 0.030951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 340.338123 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_03_Day_a.png
-  artifactKey: Guid(e3de3e8435d45a64fa4aa46634ced55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_03_Day_a.png using Guid(e3de3e8435d45a64fa4aa46634ced55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f81e0f5cc4b2487c4f51e129862d34c') in 0.899971 seconds 
-  Import took 0.938150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png
-  artifactKey: Guid(b4503954fd147c94180872808dde9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_02_Night_a.png using Guid(b4503954fd147c94180872808dde9eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1647d5fde432b098865f486f45e09a33') in 0.820308 seconds 
-  Import took 0.852533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png
-  artifactKey: Guid(f533b109bd941ea44b93a29274d4eef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_03_Day_a.png using Guid(f533b109bd941ea44b93a29274d4eef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce5e0450ef667d67524f79b08a62176e') in 0.334652 seconds 
-  Import took 0.340560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png
-  artifactKey: Guid(fca5a57d63136f6428a1d31d1ab2c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_15_Day_a.png using Guid(fca5a57d63136f6428a1d31d1ab2c777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824ebdabd5763f9c8bdc0f245e756d81') in 0.848256 seconds 
-  Import took 0.857215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png
-  artifactKey: Guid(c1473a09822798a41a9cfa11f2721db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_11_morning_a.png using Guid(c1473a09822798a41a9cfa11f2721db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0980429db2bceebd7c8472dd8a3a3c35') in 0.968101 seconds 
-  Import took 0.976834 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png
-  artifactKey: Guid(15941f70fce71784da1321794120ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_LowPoly_01_Day_a.png using Guid(15941f70fce71784da1321794120ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e71106aff94d0ed58efd7aaa1d142f6') in 0.681605 seconds 
-  Import took 0.711537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png
-  artifactKey: Guid(b3453e84aa7d88a47a6b80b04864177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_01_Day_a.png using Guid(b3453e84aa7d88a47a6b80b04864177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9b2200492f7455b23063d0adf91e6f') in 0.345970 seconds 
-  Import took 0.378260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png
-  artifactKey: Guid(b15764350a2285e49a165af927da5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/CubeMap/Textures/Sky_Anime_18_day_a.png using Guid(b15764350a2285e49a165af927da5da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ab1a5318d46faa401fddfa1a70dcc') in 0.872141 seconds 
-  Import took 0.903927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_02_Night_a.png
-  artifactKey: Guid(db7650dac9116b24f9ce64ccac6b74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_LowPoly_02_Night_a.png using Guid(db7650dac9116b24f9ce64ccac6b74f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b13e7d0b3be1bac70ab5e7be7d6338b') in 0.392912 seconds 
-  Import took 0.450107 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png
-  artifactKey: Guid(80d697d9e2b2d324da231c441502f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_15_Day_a.png using Guid(80d697d9e2b2d324da231c441502f3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7402de0223019f0b3bde6598de1913') in 0.331374 seconds 
-  Import took 0.352003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png
-  artifactKey: Guid(7aec8516610b2ff4abcdda8106713279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_11_morning_a.png using Guid(7aec8516610b2ff4abcdda8106713279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de07617aaa824e0b91f74887b5c6c88') in 0.511337 seconds 
-  Import took 0.566160 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png
-  artifactKey: Guid(79d597b1e21ad6f43a22cf1308281022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Free Stylized Skybox/Panoramic/Textures/Sky_Anime_18_day_a.png using Guid(79d597b1e21ad6f43a22cf1308281022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36893ab5c1a02db449923a8791f4b6a7') in 0.572631 seconds 
-  Import took 0.610150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.141216 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/Materials
-  artifactKey: Guid(a48a6e0aeb32d444e88a85685aa9a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/Materials using Guid(a48a6e0aeb32d444e88a85685aa9a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbab46568aef27b4b854047155d4fc29') in 0.005240 seconds 
-  Import took 0.025674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 292.040268 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Stone
-  artifactKey: Guid(97cca8fba2d48e5468bb0b94be2b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone using Guid(97cca8fba2d48e5468bb0b94be2b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312cd52ea4059f658e272f4aaa31799b') in 0.006785 seconds 
-  Import took 0.046758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.659728 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_basecolor.png
-  artifactKey: Guid(6d72425ce999179498b0905cd8a3bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_basecolor.png using Guid(6d72425ce999179498b0905cd8a3bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8fdc6fa4fce155c9c3051af4fd399e') in 0.016105 seconds 
-  Import took 0.027320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_height.png
-  artifactKey: Guid(48c5b529c61fbd7479f4d28b7918bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_height.png using Guid(48c5b529c61fbd7479f4d28b7918bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad8f54b822d5709fb425755b5efbf54') in 0.019811 seconds 
-  Import took 0.031166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_normal.png
-  artifactKey: Guid(866836d0df68bcc4b82f79b01655cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_normal.png using Guid(866836d0df68bcc4b82f79b01655cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddb5ca9ca948fecca547e5972aa78ed') in 0.017311 seconds 
-  Import took 0.021631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.277343 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_normal.png
-  artifactKey: Guid(866836d0df68bcc4b82f79b01655cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_normal.png using Guid(866836d0df68bcc4b82f79b01655cfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40b88c7d530e2e380fa76091c21c579') in 0.012151 seconds 
-  Import took 0.021826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.977533 seconds.
-  path: Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_height.png
-  artifactKey: Guid(48c5b529c61fbd7479f4d28b7918bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_height.png using Guid(48c5b529c61fbd7479f4d28b7918bf16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fa885cbab0be26416828f5020fee70') in 0.011491 seconds 
-  Import took 0.030730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1226.847121 seconds.
-  path: Packages/com.unity.probuilder/Content/Material/Checker.mat
-  artifactKey: Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Material/Checker.mat using Guid(4717b199010ca4cb3a8a7a465ec457d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653edf1e9f1ca89999e02def63a0927e') in 0.099037 seconds 
-  Import took 0.120620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 278.001340 seconds.
-  path: Assets/_Project/Models/StoneBridge.fbx
-  artifactKey: Guid(11ced66d30a89a14eb980d0325c1cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Models/StoneBridge.fbx using Guid(11ced66d30a89a14eb980d0325c1cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521b0781a70202e119ccfe1e423e14cf') in 0.485216 seconds 
-  Import took 0.655411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.468945 seconds.
-  path: Assets/_Project/Models/StoneBridge.fbx
-  artifactKey: Guid(11ced66d30a89a14eb980d0325c1cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Models/StoneBridge.fbx using Guid(11ced66d30a89a14eb980d0325c1cd56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e07c098de273bbc557b7216e667cc8b') in 0.236341 seconds 
-  Import took 0.271229 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 110.244657 seconds.
-  path: Assets/_Project/Models/StoneBridge_low.fbx
-  artifactKey: Guid(562cb90fa694b854a9c1ffab008fcd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Models/StoneBridge_low.fbx using Guid(562cb90fa694b854a9c1ffab008fcd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccaac86704213b25b9e4365901c35c5') in 0.369047 seconds 
-  Import took 0.389184 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.700629 seconds.
-  path: Assets/_Project/Models/StoneBridge_low.fbx
-  artifactKey: Guid(562cb90fa694b854a9c1ffab008fcd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Models/StoneBridge_low.fbx using Guid(562cb90fa694b854a9c1ffab008fcd90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17a1578291e4dbea7e0f256652212c2') in 0.017469 seconds 
-  Import took 0.029322 seconds .
+  path: Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Albedo.png
+  artifactKey: Guid(d4741171f4e026a46bf4bc6704d81c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/TilingTextures/Environment/Grass/StylizedGras_Albedo.png using Guid(d4741171f4e026a46bf4bc6704d81c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309cc787e09544503b88079778ddcb08') in 0.100036 seconds 
+  Import took 0.105611 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.301279 seconds.
+Registered in 0.007011 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.337 seconds
+- Completed reload, in  0.905 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1356ms)
-		BeginReloadAssembly (325ms)
+	ReloadAssembly (905ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (28ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (105ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (281ms)
-			ReleaseScriptCaches (2ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (375ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (256ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.5 MB.
-System memory in use after: 147.7 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3922.
-Total: 4.190900 ms (FindLiveObjects: 0.461600 ms CreateObjectMapping: 0.081700 ms MarkObjects: 3.505100 ms  DeleteObjects: 0.141000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 27399.030816 seconds.
-  path: Assets/_Project/Models/GroundPlane.fbx
-  artifactKey: Guid(68a6d7e7085a1cf42af2929c13ffd7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Models/GroundPlane.fbx using Guid(68a6d7e7085a1cf42af2929c13ffd7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfee9a73261fbf352d363dbe5787ec9') in 0.247376 seconds 
-  Import took 0.262086 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008241 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
-Domain Reload Profiling:
-	ReloadAssembly (962ms)
-		BeginReloadAssembly (120ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (787ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (275ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3231 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.8 MB.
-System memory in use after: 148.0 MB.
+System memory in use before: 142.0 MB.
+System memory in use after: 142.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3960.
-Total: 3.218400 ms (FindLiveObjects: 0.317800 ms CreateObjectMapping: 0.078000 ms MarkObjects: 2.752600 ms  DeleteObjects: 0.069100 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3836.
+Total: 3.588600 ms (FindLiveObjects: 0.305600 ms CreateObjectMapping: 0.118400 ms MarkObjects: 3.085700 ms  DeleteObjects: 0.077600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -517,4 +196,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 401.017476 seconds.
+  path: Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_basecolor.png
+  artifactKey: Guid(6d72425ce999179498b0905cd8a3bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Materials/TilingTextures/Environment/Stone/stylized-wall-rock-03_basecolor.png using Guid(6d72425ce999179498b0905cd8a3bf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b0d9712314cb5be753aefd849715e3e') in 0.041506 seconds 
+  Import took 0.046746 seconds .
+
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
