@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_1:
-        m_Texture: {fileID: 2800000, guid: 6d72425ce999179498b0905cd8a3bf42, type: 3}
+        m_Texture: {fileID: 2800000, guid: d6638d0b3f36f73499e096f126563859, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2:
@@ -32,11 +32,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_3:
-        m_Texture: {fileID: 2800000, guid: 866836d0df68bcc4b82f79b01655cfda, type: 3}
+        m_Texture: {fileID: 2800000, guid: 163af15a01e157346b6301bb2cb2c661, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_53a723be725144068e406798b00d0d4b:
-        m_Texture: {fileID: 2800000, guid: 48c5b529c61fbd7479f4d28b7918bf16, type: 3}
+        m_Texture: {fileID: 2800000, guid: a65c37fc3ddc7c24f885520690fddabf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1: 125.03
+    - Vector1_1: 78.67
     - Vector1_2: 1
     - Vector1_3f1e149a0a764219938817e63380155c: 1
     - Vector1_7c2934887d044ddeb3ec97ba46b610c1: 117.91
