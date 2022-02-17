@@ -12,6 +12,7 @@ public class ThirdPersonController : MonoBehaviour
     
     // Movement Fields
     private Rigidbody rb;
+    private Animator anim;
 
     [SerializeField] private float
         movementForce = 1f,
@@ -22,15 +23,21 @@ public class ThirdPersonController : MonoBehaviour
 
     [SerializeField] private Camera playerCamera;
 
+    private bool canMove;
+
     private void Awake()
     {
         rb = this.GetComponent<Rigidbody>();
+        anim = this.GetComponent<Animator>();
         playerActionsAsset = new ThirdPersonActions();
+
+        canMove = true;
     }
 
     private void OnEnable()
     {
         playerActionsAsset.Player.Jump.started += DoJump;
+        playerActionsAsset.Player.Attack.started += DoAttack;
         move = playerActionsAsset.Player.Move;
         playerActionsAsset.Player.Enable();
     }
@@ -38,26 +45,45 @@ public class ThirdPersonController : MonoBehaviour
     private void OnDisable()
     {
         playerActionsAsset.Player.Jump.started -= DoJump;
+        playerActionsAsset.Player.Attack.started -= DoAttack;
         playerActionsAsset.Player.Disable();
     }
 
     private void FixedUpdate()
     {
-        forceDirection += move.ReadValue<Vector2>().x * GetCameraRight(playerCamera) * movementForce;
-        forceDirection += move.ReadValue<Vector2>().y * GetCameraForward(playerCamera) * movementForce;
-        
-        rb.AddForce(forceDirection, ForceMode.Impulse);
-        forceDirection = Vector3.zero;
+        CheckMovement();
 
-        if (rb.velocity.y < 0)
-            rb.velocity += Vector3.down * Physics.gravity.y * Time.deltaTime;
-
-        Vector3 horizontalVelocity = rb.velocity;
-        horizontalVelocity.y = 0;
-        if (horizontalVelocity.sqrMagnitude > maxSpeed * maxSpeed)
-            rb.velocity = horizontalVelocity.normalized * maxSpeed + Vector3.up * rb.velocity.y;
+        if (!canMove)
+        {
+            rb.velocity = Vector3.zero;
+        }
+        else
+        {
+            forceDirection += move.ReadValue<Vector2>().x * GetCameraRight(playerCamera) * movementForce;
+            forceDirection += move.ReadValue<Vector2>().y * GetCameraForward(playerCamera) * movementForce;
         
-        LookAt();
+            rb.AddForce(forceDirection, ForceMode.Impulse);
+            forceDirection = Vector3.zero;
+
+            if (rb.velocity.y < 0f)
+                rb.velocity -= Vector3.down * Physics.gravity.y * Time.deltaTime;
+
+            Vector3 horizontalVelocity = rb.velocity;
+            horizontalVelocity.y = 0f;
+            if (horizontalVelocity.sqrMagnitude > maxSpeed * maxSpeed)
+                rb.velocity = horizontalVelocity.normalized * maxSpeed + Vector3.up * rb.velocity.y;
+        
+            LookAt();   
+        }
+    }
+
+    private void CheckMovement()
+    {
+        AnimatorStateInfo animInfo = anim.GetCurrentAnimatorStateInfo(1);
+        if (animInfo.IsName("attack"))
+            canMove = false;
+        else
+            canMove = true;
     }
 
     private void LookAt()
@@ -74,14 +100,14 @@ public class ThirdPersonController : MonoBehaviour
     private Vector3 GetCameraForward(Camera playerCamera)
     {
         Vector3 forward = this.playerCamera.transform.forward;
-        forward.y = 0;
+        forward.y = 0f;
         return forward.normalized;
     }
 
     private Vector3 GetCameraRight(Camera playerCamera)
     {
         Vector3 right = this.playerCamera.transform.right;
-        right.y = 0;
+        right.y = 0f;
         return right.normalized;
     }
 
@@ -100,5 +126,11 @@ public class ThirdPersonController : MonoBehaviour
             return true;
         else
             return false;
+    }
+    
+    private void DoAttack(InputAction.CallbackContext obj)
+    {
+        anim.SetTrigger("attack");
+        
     }
 }
