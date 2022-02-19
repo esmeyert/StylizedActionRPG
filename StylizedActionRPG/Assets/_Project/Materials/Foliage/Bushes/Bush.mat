@@ -20,27 +20,27 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_1:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b669f17c019a4d8439862cc9bb0e95a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 0b0078d834e21a148a450197d00802ec, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_3:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bdd613f1bdb807e479a6b2d1c196f1de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_3f274cbbbebd4ebb944db92bc1ed26b8:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 19f3010356dd96845b9d93e42f806552, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_4:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 97b6f48e8ef0dd2489e05618f8c1dabf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_5:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: acccd47e0f1666a4ebb204d1102bf541, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
