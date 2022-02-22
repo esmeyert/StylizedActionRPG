@@ -93,3 +93,19 @@ MonoBehaviour:
       m_YScaleBool: 1
       m_ZScaleBool: 0
     name: Tree1
+  - gameObject: {fileID: 2979420536598234938, guid: ac3d392374470714c8d165dfcbb02623, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.5, y: 0.8}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 0
+    name: Tree2

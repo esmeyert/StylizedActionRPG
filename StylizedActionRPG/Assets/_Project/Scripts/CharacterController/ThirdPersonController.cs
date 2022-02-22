@@ -51,13 +51,7 @@ public class ThirdPersonController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        CheckMovement();
-
-        if (!canMove)
-        {
-            rb.velocity = Vector3.zero;
-        }
-        else
+        if (canMove)
         {
             forceDirection += move.ReadValue<Vector2>().x * GetCameraRight(playerCamera) * movementForce;
             forceDirection += move.ReadValue<Vector2>().y * GetCameraForward(playerCamera) * movementForce;
@@ -75,15 +69,6 @@ public class ThirdPersonController : MonoBehaviour
         
             LookAt();   
         }
-    }
-
-    private void CheckMovement()
-    {
-        AnimatorStateInfo animInfo = anim.GetCurrentAnimatorStateInfo(1);
-        if (animInfo.IsName("attack"))
-            canMove = false;
-        else
-            canMove = true;
     }
 
     private void LookAt()
@@ -130,7 +115,12 @@ public class ThirdPersonController : MonoBehaviour
     
     private void DoAttack(InputAction.CallbackContext obj)
     {
+        canMove = false;
         anim.SetTrigger("attack");
-        
+    }
+
+    public void EndAttack()
+    {
+        canMove = true;
     }
 }
